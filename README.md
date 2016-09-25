@@ -1,2 +1,2 @@
-# blog_examples
-Code samples from my blog posts
+# Blog Examples
+Code examples from my blog posts

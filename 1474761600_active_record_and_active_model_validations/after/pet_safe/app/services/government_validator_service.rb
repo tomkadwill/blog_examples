@@ -1,7 +1,7 @@
 class GovernmentValidatorService
   include ActiveModel::Validations
 
-  validates_inclusion_of :age, in: 0..15
+  validates_inclusion_of :age, in: 0..15, message: "Pet's age is too high for insurance"
 
   attr_accessor :id, :age
 
