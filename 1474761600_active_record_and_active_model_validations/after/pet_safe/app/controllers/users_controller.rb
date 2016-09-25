@@ -7,15 +7,11 @@ class UsersController < ApplicationController
   end
 
   def create
-    unless GovernmentValidatorService.new(params[:insurance_id]).valid?
-      render "new"
-    end
-
-    @user = User.create(user_params)
+    @user = UserFactoryService.new(user_params, params[:insurance_id])
     if @user.save
       render 'index'
     else
-      render 'new'
+      redirect_to(action: "new")
     end
   end
 
