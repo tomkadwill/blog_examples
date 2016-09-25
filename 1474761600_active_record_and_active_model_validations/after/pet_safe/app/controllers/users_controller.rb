@@ -7,9 +7,7 @@ class UsersController < ApplicationController
   end
 
   def create
-    if params[:user][:age].to_i < 16
-      render "new"
-    elsif government_service.pet_age > 15
+    unless GovernmentValidatorService.new(params[:insurance_id]).valid?
       render "new"
     end
 
@@ -24,10 +22,9 @@ class UsersController < ApplicationController
   private
 
   def user_params
-    params.require(:user).permit(:name)
-  end
-
-  def government_service
-    GovernmentService.new(params[:insurance_id])
+    params.require(:user).permit(
+      :name,
+      :age
+    )
   end
 end

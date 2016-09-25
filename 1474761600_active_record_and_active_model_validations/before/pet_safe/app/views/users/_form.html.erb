@@ -1,0 +1,18 @@
+<%= form_for(user) do |f| %>
+  <p>
+  <b>Name</b><br>
+  <%= f.text_field :name %>
+  </p>
+  <p>
+  <b>Age</b><br>
+  <%= f.number_field :age %>
+  </p>
+  <p>
+  <p>
+  <b>Pet Insurance ID</b><br>
+  <%= text_field_tag :insurance_id %>
+  </p>
+  <p>
+  <%= f.submit %>
+  </p>
+<% end %>
