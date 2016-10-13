@@ -1,0 +1,7 @@
+<h1>Toys</h1>
+
+<ul>
+<% @toys.each do |toy| %>
+  <li><%= toy.name %> - <%= link_to 'Delete toy', toy_path(toy), :method => :delete %></li>
+<% end %>
+</ul>
