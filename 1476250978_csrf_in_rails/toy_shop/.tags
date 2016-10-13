@@ -76,4 +76,8 @@ h	/Users/thomaskadwill/Workspace/blog_examples/1476250978_csrf_in_rails/before/t
 p	/Users/thomaskadwill/Workspace/blog_examples/1476250978_csrf_in_rails/before/toy_shop/public/500.html	/^    <p>If you are the application owner check the logs for more information.<\/p>$/;"	function	line:63
 README	/Users/thomaskadwill/Workspace/blog_examples/1476250978_csrf_in_rails/before/toy_shop/README.md	/^# README$/;"	function	line:1
 ActiveSupport	/Users/thomaskadwill/Workspace/blog_examples/1476250978_csrf_in_rails/before/toy_shop/test/test_helper.rb	/^class ActiveSupport::TestCase$/;"	class	line:5
+HomeController	/Users/thomaskadwill/Workspace/blog_examples/1476250978_csrf_in_rails/before/toy_shop/app/controllers/home_controller.rb	/^class HomeController < ApplicationController$/;"	class	line:1
+index	/Users/thomaskadwill/Workspace/blog_examples/1476250978_csrf_in_rails/before/toy_shop/app/controllers/home_controller.rb	/^  def index$/;"	method	line:4	class:HomeController
+SplashController	/Users/thomaskadwill/Workspace/blog_examples/1476250978_csrf_in_rails/before/toy_shop/app/controllers/splash_controller.rb	/^class SplashController < ApplicationController$/;"	class	line:1
+index	/Users/thomaskadwill/Workspace/blog_examples/1476250978_csrf_in_rails/before/toy_shop/app/controllers/splash_controller.rb	/^  def index$/;"	method	line:2	class:SplashController
 ApplicationController	/Users/thomaskadwill/Workspace/blog_examples/1476250978_csrf_in_rails/before/toy_shop/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1

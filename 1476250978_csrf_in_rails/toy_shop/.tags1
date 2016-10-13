@@ -4,4 +4,3 @@
 !_TAG_PROGRAM_NAME	Exuberant Ctags	//
 !_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
 !_TAG_PROGRAM_VERSION	5.8	//
-ApplicationController	/Users/thomaskadwill/Workspace/blog_examples/1476250978_csrf_in_rails/before/toy_shop/app/controllers/application_controller.rb	/^class ApplicationController < ActionController::Base$/;"	class	line:1

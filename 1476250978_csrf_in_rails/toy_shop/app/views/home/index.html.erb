@@ -1,0 +1,17 @@
+<script>
+$(document).ready(function(){
+  $("#delete_button").click(function() {
+    $.ajax({
+      url: "http://localhost:3000/toys/<%= Toy.first.id %>",
+      type: 'DELETE',
+      success: function(result) {
+        // Do something with the result
+      }
+    });
+  });
+});
+</script>
+
+<h1>Toy Store Home Page</h1>
+
+<button type="button" id="delete_button">Delete a Toy</button>
