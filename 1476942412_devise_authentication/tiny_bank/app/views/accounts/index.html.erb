@@ -1,0 +1,7 @@
+<h1><%= current_user.name %> - Accounts</h1>
+
+<ul>
+<% @accounts.each do |account| %>
+  <li><%= account.name %></li>
+<% end %>
+</ul>
