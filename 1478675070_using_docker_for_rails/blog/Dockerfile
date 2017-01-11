@@ -21,8 +21,7 @@ WORKDIR /app
 # are made.
 COPY Gemfile Gemfile.lock ./
 RUN gem install bundler
-# RUN bundle config --global silence_root_warning 1
-RUN bundle install --without development test --jobs 20 --retry 5 --deployment
+RUN bundle install
 
 # Copy the main application.
 COPY . ./
